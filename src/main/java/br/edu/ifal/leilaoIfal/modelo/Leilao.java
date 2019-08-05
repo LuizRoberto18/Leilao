@@ -6,14 +6,14 @@ import java.util.List;
 public class Leilao {
 	private List<Lance> lances = new ArrayList<Lance>();
 	
-	
+
 
 	public Leilao() {
 		super();
 		this.lances = new ArrayList<Lance>();
 	}
 	
-	public void prope(Lance lance) {
+	public void propoe(Lance lance) {
 		this.lances.add(lance);
 	}
 
